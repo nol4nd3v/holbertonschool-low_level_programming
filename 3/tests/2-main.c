@@ -8,15 +8,7 @@
  */
 int main(void)
 {
-	int r;
-
-	r = _abs(-1);
-	printf("%d\n", r);
-	r = _abs(0);
-	printf("%d\n", r);
-	r = _abs(1);
-	printf("%d\n", r);
-	r = _abs(-98);
-	printf("%d\n", r);
+	printf("%d\n", mul(98, 1024));
+	printf("%d\n", mul(-402, 4096));
 	return (0);
 }

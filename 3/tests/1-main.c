@@ -1,4 +1,5 @@
 #include "../holberton.h"
+#include <stdio.h>
 
 /**
  * main - check the code for Holberton School students.
@@ -7,12 +8,11 @@
  */
 int main(void)
 {
-	int r;
+	char c;
 
-	print_last_digit(98);
-	print_last_digit(0);
-	r = print_last_digit(-1024);
-	_putchar('0' + r);
-	_putchar('\n');
+	c = '0';
+	printf("%c: %d\n", c, _isdigit(c));
+	c = 'a';
+	printf("%c: %d\n", c, _isdigit(c));
 	return (0);
 }

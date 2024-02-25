@@ -3,10 +3,13 @@
 /**
  * main - check the code for Holberton School students.
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 int main(void)
 {
-	jack_bauer();
+	print_diagonal(0);
+	print_diagonal(2);
+	print_diagonal(10);
+	print_diagonal(-4);
 	return (0);
 }
